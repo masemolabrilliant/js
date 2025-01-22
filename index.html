@@ -10,13 +10,15 @@
 <div id="box"></div>
 
     <script>
-        let text="Kwetepe masemola jim";
+        /***********Fcuntions to extract stirngs************/
+        //slice(start, end)
+        //substring (start, end)
+        //substr (start, end(length))
 
-        let temp =
-         `Hi, I'm masemola "Jim" kwetepe brillianr'`;
-        let textLength= temp.length;
-        document.getElementById("box").innerHTML=
-        textLength;
+        let text = "Brilliant made ke leina laka bro!!";
+        let word= text.substr(5, 1);
+
+        document.getElementById("box").innerHTML = word;
     </script>
     
 </body>
