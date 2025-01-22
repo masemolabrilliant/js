@@ -11,13 +11,18 @@
 
     <script>
 
-        /****padding*********/
-        //padStart"("how many times", pad with)
+       /************ repeat & replace**************/
 
-        let name ="Kwetepe";
-        let thate = name.padEnd("105", "kWetepe")
+       //repeat(how many times)
+       //replace("what to replace", "With what")
+       //replaceAll
+
+       name = "Jim, you see jim ke leina la gotxwa ga rakgolo waka, jim thobela"
+       word = name.repeat(20)
+       altered = name.replace(/jim/g,"XX")
+       again = name.replaceAll("Jim", "KKK")
    
-    document.getElementById("box").innerHTML=thate;
+    document.getElementById("box").innerHTML=again;
         
     </script>
     
