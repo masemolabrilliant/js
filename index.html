@@ -10,19 +10,14 @@
 <div id="box"></div>
 
     <script>
+        /*string search, search(allows regual expression) */
 
-       /************ repeat & replace**************/
+        name = "kwete jim brilliant masemola jim"
+        text = name.search(/jim/g);
 
-       //repeat(how many times)
-       //replace("what to replace", "With what")
-       //replaceAll
 
-       name = "Jim, you see jim ke leina la gotxwa ga rakgolo waka, jim thobela"
-       word = name.repeat(20)
-       altered = name.replace(/jim/g,"XX")
-       again = name.replaceAll("Jim", "KKK")
    
-    document.getElementById("box").innerHTML=again;
+    document.getElementById("box").innerHTML=text;
         
     </script>
     
