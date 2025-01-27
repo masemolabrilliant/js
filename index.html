@@ -10,13 +10,15 @@
 <div id="box"></div>
 
     <script>
-       let fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple", "Strawberry", "Grapes", "Peach", "Watermelon", "Kiwi", "Blueberry"];
+       arr1 = ["A", "A","A","A","A","A"];
+       arr2= ["B","B","B","B","B","B","B"]
+       arr3 = ["C","C","C","C","C","C"]
 
-       delete() fruits[0]
+       newArr = arr1.concat(arr2,arr3)
 
        
 
-       document.getElementById("box").innerHTML=fruits.join("_");
+       document.getElementById("box").innerHTML=newArr.join("_");
     </script>
     
 </body>
