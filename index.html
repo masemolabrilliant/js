@@ -10,25 +10,11 @@
 <div id="box"></div>
 
     <script>
-        /*printing last elemnt of an array */
+       let fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple", "Strawberry", "Grapes", "Peach", "Watermelon", "Kiwi", "Blueberry"];
 
-      const fruits = ['banana', 'able', 'melon'];
+       let ArrLen = fruits.length;
 
-
-length = fruits.length;
-
-let text = "</ul>"
-
-for(i = 0; i<=length; i++){
-
-text += "<li>"+ fruits[i]"</li>";
-
-}
-
-text+='</ul>';
-   
-    document.getElementById("box").innerHTML=text;
-        
+       document.getElementById("box").innerHTML=ArrLen;
     </script>
     
 </body>
