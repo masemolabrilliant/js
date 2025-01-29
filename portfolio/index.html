@@ -13,8 +13,8 @@
  //splice
     const myArr = [ 1,2,5,3,6,9,8,7 ]
 
-    myArr.splice(0,3);
-    document.getElementById("box").innerHTML= myArr;
+    const spliced = myArr.toSpliced(0,3);
+    document.getElementById("box").innerHTML= myArr.concat("***__",spliced );
   </script>
   
 </body>
