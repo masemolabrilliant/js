@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Js</title>
 </head>
+
 <body>
 
   <div id="box"></div>
 
   <script>
- //array search
-    const myArr = [ 1,2,5,3,6,1,8,7]
+    //array search
+    const myArr = [1, 2, 5, 3, 6, 1, 8, 7]
 
-    const index = myArr.findIndex(myFunction);
+    const index = myArr.findLastIndex(x => x <2);
 
-    function myFunction(value, index, array){
-      return value>7
-    }
 
-    document.getElementById("box").innerHTML= index;
+
+    document.getElementById("box").innerHTML = index;
   </script>
-  
+
 </body>
+
 </html>
