@@ -10,11 +10,11 @@
   <div id="box"></div>
 
   <script>
- //splice
-    const myArr = [ 1,2,5,3,6,9,8,7 ]
+ //array search
+    const myArr = [ 1,2,5,3,6,9,8,7]
 
-    const spliced = myArr.slice(3,5);
-    document.getElementById("box").innerHTML= spliced.join("__");
+    const index = myArr.indexOf(3);
+    document.getElementById("box").innerHTML= index;
   </script>
   
 </body>
