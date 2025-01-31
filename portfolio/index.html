@@ -13,7 +13,12 @@
  //array search
     const myArr = [ 1,2,5,3,6,1,8,7]
 
-    const index = myArr.includes(7);
+    const index = myArr.find(myFunction);
+
+    function myFunction(value, index, array){
+      return value>7
+    }
+
     document.getElementById("box").innerHTML= index;
   </script>
   
