@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Js</title>
-</head>
+<html>
 
 <body>
+  <h1>JavaScript Arrays</h1>
+  <h2>The sort() Method</h2>
 
-  <div id="box"></div>
+  <p>The sort() method sorts an array alphabetically:</p>
+
+  <p id="demo1"></p>
+  <p id="demo2"></p>
 
   <script>
-    //array sort
-    const myArr = ["a", "b", "W", "m", "P"];
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo1").innerHTML = fruits;
 
-    myArr.reverse();
-
-
-
-    document.getElementById("box").innerHTML = myArr;
+    fruits.sort();
+    document.getElementById("demo2").innerHTML = fruits;
   </script>
 
 </body>
