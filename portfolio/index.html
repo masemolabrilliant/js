@@ -3,12 +3,17 @@
 
 <body>
 
+  <div id="box1"></div>
   <div id="box"></div>
 
   <script>
     const myArray = ["Z", "D", "A", "E"];
 
-    const newArray = myArray.sort();
+
+
+    document.getElementById("box1").innerHTML = myArray.join("_");
+
+    const newArray = myArray.sort().reverse();
 
     document.getElementById("box").innerHTML = newArray.join("_");
   </script>
