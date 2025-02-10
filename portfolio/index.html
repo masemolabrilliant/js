@@ -9,13 +9,11 @@
   <script>
     const myArray = ["Z", "D", "A", "E"];
 
-
-
-    document.getElementById("box1").innerHTML = myArray.join("_");
-
-    const newArray = myArray.sort().reverse();
+    newArray = myArray.toSorted();
 
     document.getElementById("box").innerHTML = newArray.join("_");
+
+    document.getElementById("box1").innerHTML = "Original Array :".concat(myArray.join("_"));
   </script>
 
 </body>
